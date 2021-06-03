@@ -160,3 +160,5 @@ C:\Users\Lina\Desktop\PrimerP_Ap2\obj\Debug\net5.0\PrimerP_Ap2.dll
 C:\Users\Lina\Desktop\PrimerP_Ap2\obj\Debug\net5.0\ref\PrimerP_Ap2.dll
 C:\Users\Lina\Desktop\PrimerP_Ap2\obj\Debug\net5.0\PrimerP_Ap2.pdb
 C:\Users\Lina\Desktop\PrimerP_Ap2\obj\Debug\net5.0\PrimerP_Ap2.genruntimeconfig.cache
+C:\Users\Lina\Desktop\PrimerP_Ap2\obj\Debug\net5.0\RazorDeclaration\Pages\Registros\RProducto.razor.g.cs
+C:\Users\Lina\Desktop\PrimerP_Ap2\obj\Debug\net5.0\Razor\Pages\Registros\RProducto.razor.g.cs
