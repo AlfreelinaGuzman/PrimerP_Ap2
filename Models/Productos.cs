@@ -13,7 +13,7 @@ namespace PrimerP_Ap2.Models
         [Required(ErrorMessage = "Este campo no puede estar vacio.")]
         public string Concepto { get; set; }
         [Required(ErrorMessage = "Este campo no puede estar vacio.")]
-        public int Existencia { get; set; }
+        public double Existencia { get; set; }
         [Required(ErrorMessage = "Este campo no puede estar vacio.")]
         public decimal Costo { get; set; }
         public decimal ValorInventario { get; set; }
