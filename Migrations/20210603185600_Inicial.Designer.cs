@@ -8,7 +8,7 @@ using PrimerP_Ap2.DAL;
 namespace PrimerP_Ap2.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20210603013259_Inicial")]
+    [Migration("20210603185600_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -97,14 +97,14 @@ using Blazored.Toast.Services;
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+#line 4 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
 using BLL;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+#line 5 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
 using Models;
 
 #line default
@@ -120,9 +120,8 @@ using Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 81 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+#line 80 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
        
-
     [Parameter]
     public int ProductoId { get; set; }
 
@@ -136,26 +135,28 @@ using Models;
         }
     }
 
+    
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 96 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
-                                                                                
+#line 94 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+                                                   
     public void Nuevo()
     {
         productos = new Productos();
     }
 
+    
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 102 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
-                                                                                
-private void Buscar()
+#line 100 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+                                                    
+    private void Buscar()
     {
         var encontrado = ProductosBLL.Buscar(productos.ProductoId);
 
@@ -170,13 +171,14 @@ private void Buscar()
         return;
     }
 
+    
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 118 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
-                                                                                  
+#line 116 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+                                                     
     public void Guardar()
     {
         bool guardado;
@@ -193,13 +195,14 @@ private void Buscar()
         return;
     }
 
+    
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 135 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
-                                                                                   
+#line 133 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+                                                      
     public void Eliminar()
     {
         bool eliminado;
@@ -216,14 +219,8 @@ private void Buscar()
         return;
     }
 
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 152 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
-                                                                                                             
-    public void ActualizaValorInventario()
+    //++++++++++++++++++ InputChanged - Monto ++++++++++++++++++
+    public void ActualizarInventario()
     {
         productos.ValorInventario = (Convert.ToDecimal(productos.Existencia) * productos.Costo);
     }
