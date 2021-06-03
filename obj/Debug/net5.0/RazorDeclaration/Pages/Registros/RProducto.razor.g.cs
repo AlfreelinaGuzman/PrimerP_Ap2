@@ -97,20 +97,21 @@ using Blazored.Toast.Services;
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+#line 5 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
 using BLL;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+#line 6 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
 using Models;
 
 #line default
 #line hidden
 #nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/RProducto")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/RProducto/{ProductoId:int}")]
     public partial class RProducto : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -119,7 +120,7 @@ using Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 80 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+#line 81 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
        
 
     [Parameter]
@@ -140,7 +141,7 @@ using Models;
 #line hidden
 #nullable disable
 #nullable restore
-#line 95 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+#line 96 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
                                                                                 
     public void Nuevo()
     {
@@ -152,7 +153,7 @@ using Models;
 #line hidden
 #nullable disable
 #nullable restore
-#line 101 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+#line 102 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
                                                                                 
 private void Buscar()
     {
@@ -174,7 +175,7 @@ private void Buscar()
 #line hidden
 #nullable disable
 #nullable restore
-#line 117 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+#line 118 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
                                                                                   
     public void Guardar()
     {
@@ -197,7 +198,7 @@ private void Buscar()
 #line hidden
 #nullable disable
 #nullable restore
-#line 134 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+#line 135 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
                                                                                    
     public void Eliminar()
     {
@@ -220,7 +221,7 @@ private void Buscar()
 #line hidden
 #nullable disable
 #nullable restore
-#line 151 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
+#line 152 "C:\Users\Lina\Desktop\PrimerP_Ap2\Pages\Registros\RProducto.razor"
                                                                                                              
     public void ActualizaValorInventario()
     {
